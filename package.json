@@ -1,0 +1,24 @@
+{
+    "name": "rest-reproduction",
+    "version": "0.1.0",
+    "description": "rest-reproduction Graphweaver Project",
+    "scripts": {
+        "build": "graphweaver build",
+        "start": "graphweaver start",
+        "watch": "graphweaver watch",
+        "import": "graphweaver import"
+    },
+    "dependencies": {
+        "@as-integrations/aws-lambda": "3.1.0",
+        "@exogee/graphweaver": "2.5.0",
+        "@exogee/graphweaver-scalars": "2.5.0",
+        "@exogee/graphweaver-server": "2.5.0",
+        "@exogee/graphweaver-rest": "2.5.0",
+        "graphql": "16.9.0"
+    },
+    "devDependencies": {
+        "@types/node": "22.5.5",
+        "graphweaver": "2.5.0",
+        "typescript": "5.6.2"
+    }
+}
